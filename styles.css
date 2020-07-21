@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  color: white;
+  background-color: black;
+  font-family: 'Anonymous Pro', monospace;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+}
+
+.btn-submit {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  width: 50%;
+}
+
+.posts-box {
+  margin: 2rem;
+}
+
+.posts-box p {
+  display: grid;
+  box-sizing: border-box;
+  /* border: 1px solid salmon; */
+}
